@@ -1,0 +1,148 @@
+ @media(max-width: 1000px) {
+    .social-icons {
+      display: none;
+    }
+    .inshot-logo{
+        margin: auto;
+        text-align: center;
+        
+    }
+    .inshot-icons{
+      text-align: center;
+    }
+    .banner-img{
+      display: none;
+    }
+    .inshot-icon2{
+      text-align: center;
+      align-items: center;
+    }
+    .heading{
+      text-align: center;
+      
+  }
+  .plus-button{
+      display: none;
+  }
+  .texts{
+    display: none;
+   
+  } 
+  .editing-optn1{
+    text-align: center;
+    width: 200%;
+    height: auto;
+    
+  }
+  .editing-optn2{
+    text-align: center;
+    width: 200%;
+    height: auto;
+    
+  }
+  .editing-optn3{
+    text-align: center;
+    width: 200%;
+    height: auto;
+    
+  }
+  .editing-optn2,.editing-optn3{
+    padding-left: 0rem;
+  }
+  .center-img{
+    display: none;
+}
+.section3-img{
+  text-align: center;
+  
+}
+.section3-text{
+  display: none;
+
+}
+.section3-img1{
+  height: auto;
+  width: 100%;
+  
+}
+.footer-social-icons {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid gray;
+  
+}
+.footer-texts{
+  display: none;
+  
+}
+.footer-texts-2{
+  display: flex;
+  justify-content: space-around;
+}
+.popular-vlog{
+  display: block;
+}
+.popular-vlogs{
+  display: none;
+}
+
+} 
+
+  @media(min-width : 1000px){
+    .footer-social-icons {
+      display: none;
+    }
+    .footer-texts{
+      display:block;
+    }
+    .popular-vlogs{
+      display:block;
+    }
+    .popular-vlog{
+      display: none;
+    }
+    .footer-texts-2{
+      display: none;
+    }
+    
+  }
+
+
+
+
+
+
+
+  .editing-optn3{
+    padding-left: 5rem;
+  }
+  .editing-optn2{
+    padding-left: 3rem;
+  }
+  
+  .inshot-icons{
+      
+      height: 4.5rem;
+      width: 4.5rem;
+      margin-top: 5rem;
+  }
+  .inshot-icons1{
+      height: 4rem;
+      width: 15rem;
+  }
+  .border-img{
+    text-align: center;
+    background: rgb(245, 240, 240);
+} 
+
+ 
+ 
+@media(max-width:1280px){
+    
+}
+body{
+  background-color: #fff;
+}
+.row{
+  --bs-gutter-x: 0rem;
+}
