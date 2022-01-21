@@ -28,24 +28,7 @@
     display: none;
    
   } 
-  .editing-optn1{
-    text-align: center;
-    width: 200%;
-    height: auto;
-    
-  }
-  .editing-optn2{
-    text-align: center;
-    width: 200%;
-    height: auto;
-    
-  }
-  .editing-optn3{
-    text-align: center;
-    width: 200%;
-    height: auto;
-    
-  }
+  
   .editing-optn2,.editing-optn3{
     padding-left: 0rem;
   }
@@ -113,12 +96,6 @@
 
 
 
-  .editing-optn3{
-    padding-left: 5rem;
-  }
-  .editing-optn2{
-    padding-left: 3rem;
-  }
   
   .inshot-icons{
       
@@ -137,8 +114,47 @@
 
  
  
-@media(max-width:1280px){
+@media(max-width:1000px){
     
+  .editing-optn1 img{
+    width: 100%;
+    height: auto;
+    
+  }
+  .editing-optn2 img{
+    width: 100%;
+    height: auto;
+    
+  }
+  .editing-optn3 img{
+    width: 100%;
+    height: auto;
+    
+  }
+}
+@media(min-width:1000px){
+    
+  .editing-optn1 img{
+    width: 100%;
+    height: auto;
+    
+  }
+  .editing-optn2{
+    margin-left: 3rem;
+  }
+  .editing-optn3{
+    margin-left: 6rem;
+  }
+  .editing-optn2 img{
+    width: 100%;
+    height: auto;
+    
+  }
+  .editing-optn3 img{
+    width: 100%;
+    height: auto;
+    
+  }
 }
 body{
   background-color: #fff;
